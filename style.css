@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../img/vignes.jpeg') center/cover fixed no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: #3a1f2b;
+    backdrop-filter: blur(2px);
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(255,255,255,0.6);
+    backdrop-filter: blur(3px);
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #5a0c2c;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #3a1f2b;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    backdrop-filter: blur(3px);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+    color: #5a0c2c;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #5a0c2c;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #fff;
+}
+
+.suggestion, .description {
+    min-height: 180px;
+}
+
+p {
+    font-size: 1rem;
+}
